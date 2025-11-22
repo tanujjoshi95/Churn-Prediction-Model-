@@ -126,7 +126,8 @@ The goal is to identify which customers are at **risk of leaving**, using histor
 - **Matplotlib**, **Seaborn** (visualizations)  
 - **scikit-learn** (ML models)  
 - **Imbalanced-Learn (SMOTE)**  
-- **XGBoost**, **LightGBM**, **Random Forest**, **Decision Tree**  
+- **XGBoost**, **LightGBM**, **Random Forest**, **Decision Tree** 
+- **Pickle** for model loading
 - **Streamlit** for interactive UI  
         """
     )
