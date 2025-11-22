@@ -56,7 +56,7 @@ with st.form("churn_form"):
     
 
     # Submit button
-    submitted = st.form_submit_button("🔮 Predict")
+    submitted = st.form_submit_button(" Predict")
 
 
 if submitted:
