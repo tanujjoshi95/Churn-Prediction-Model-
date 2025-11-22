@@ -97,3 +97,64 @@ if submitted:
         st.error(f"⚠️ This customer is likely to churn(Leave).")
     else:
         st.success(f"✅ This customer is not likely to churn(Leave).")
+    
+with st.sidebar:
+    st.markdown("### 🧠 About This Project")
+    st.write(
+        """
+This web app demonstrates a **Customer Churn Prediction Model** built as part of my data science learning journey.
+
+The goal is to identify which customers are at **risk of leaving**, using historical customer behavior and demographic data.
+        """
+    )
+
+    st.markdown("#### 🎯 What This App Can Do")
+    st.write(
+        """
+- Takes customer details as input  
+- Applies a trained ML model  
+- Predicts whether the customer will **Churn** or **Stay**  
+- Shows prediction probability  
+- Lets you explore patterns and insights  
+        """
+    )
+
+    st.markdown("#### ⚙️ Technologies Used")
+    st.write(
+        """
+- **Python**, **NumPy**, **Pandas**  
+- **Matplotlib**, **Seaborn** (visualizations)  
+- **scikit-learn** (ML models)  
+- **Imbalanced-Learn (SMOTE)**  
+- **XGBoost**, **LightGBM**, **Random Forest**, **Decision Tree**  
+- **Streamlit** for interactive UI  
+        """
+    )
+
+    st.markdown("#### 🔬 ML Workflow")
+    st.write(
+        """
+1. **Data Preprocessing**
+   - Label encoding  
+   - Handling missing values  
+   - Scaling & feature engineering  
+
+2. **Handling Imbalance**
+   - Oversampling minority class using **SMOTE**  
+
+3. **Model Training**
+   - Random Forest  
+   - XGBoost  
+   - LightGBM  
+   - Decision Tree  
+   - Hyperparameter tuning (RandomizedSearchCV)  
+
+4. **Model Evaluation**
+   - Accuracy & precision  
+   - Classification report  
+   - Confusion matrix  
+        """
+    )
+
+    st.markdown("---")
+    st.caption("Made by Tara · Data Science & Android dev learner")
